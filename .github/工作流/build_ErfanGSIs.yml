@@ -14,11 +14,10 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.4.27/miui_MIMIX3_20.4.27_8f7879221b_10.0.zip
+  ROM_URL: https://cdgvuhb1l9psdqg3eqk3ujpm69cfvbk4onffan01itjrtns2f34vv4sk.qc.dolfincdnx.net:7843/xdispatch6a50048f77005328/bigota.d.miui.com/V11.0.3.0.ODBCNXM/miui_MI5X_V11.0.3.0.ODBCNXM_704b2e39b0_8.1.zip?BSLuBan=eyJob3N0IjoiYmlnb3RhLmQubWl1aS5jb20iLCJic3JlcWlkIjoiZTQ2Yjk4YmVmYTIwN2Y0YWE2OGYxOWRkN2M4MTQzZTQiLCJjYWNoZV9rZXkiOiJcL1YxMS4wLjMuMC5PREJDTlhNXC9taXVpX01JNVhfVjExLjAuMy4wLk9EQkNOWE1fNzA0YjJlMzliMF84LjEuemlwIiwiZG5zX2hvc3QiOiJwZjAwMy52LmJzZ3NsYi5jbiIsImtleSI6IjkxMWQxZDk3MjkyOTU5YmYwN2MwOTQzNTc0YTBmNThlIiwidHMiOjE2ODA4NzEwMDJ9
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
-
 jobs:
   build:
     runs-on: ubuntu-18.04
